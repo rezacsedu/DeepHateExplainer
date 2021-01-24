@@ -25,9 +25,9 @@ We plan to make public all the pretrained models and some computational resource
 
 ### Instruction to run the codes and sample results:
     -- ```git clone https://github.com/rezacsedu/DeepHateExplainer.git```
-    -- 
+    -- ```sudo pip3 install -r requirements.txt```
     -- ```cd xlm-roberta```
-    -- ```python3 run.sh``` file 
+    -- ```python3 run.sh``` # make sure to change the path to the input data file and other logging paths.  
 
 Below we outlined some sample results. Your results may vary given the stochastic nature of the algorithm or evaluation procedure, or differences in numerical precision. Consider running the example a few times and compare the average outcome.
 
