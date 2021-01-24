@@ -24,10 +24,11 @@ We made publicly available this dataset (https://github.com/rezacsedu/Bengali-Ha
 We plan to make public all the pretrained models and some computational resources available, but it will take time. 
 
 ### Instruction to run the codes and sample results:
--- git clone https://github.com/rezacsedu/DeepHateExplainer.git
--- 
--- cd xlm-roberta
--- ```python3 run.sh``` file 
+    -- ```git clone https://github.com/rezacsedu/DeepHateExplainer.git```
+    -- 
+    -- ```cd xlm-roberta```
+    -- ```python3 run.sh``` file 
+
 Below we outlined some sample results. Your results may vary given the stochastic nature of the algorithm or evaluation procedure, or differences in numerical precision. Consider running the example a few times and compare the average outcome.
 
 #### 5-fold bangla-bert-base[pooled output] (max_len=128, train_batch=16, test_batch=32, epochs = 4, lr=3e-5)
@@ -171,12 +172,12 @@ If you use the code of this repository in your research, please consider citing 
         year={2020}
     }
     
-  @article{karim2020deephateexplainer,
-  title={DeepHateExplainer: Explainable Hate Speech Detection in Under-resourced Bengali Language},
-  author={Karim, Md and Dey, Sumon Kanti and Chakravarthi, Bharathi Raja and others},
-  journal={arXiv preprint arXiv:2012.14353},
-  year={2020}
-}
+      @article{karim2020deephateexplainer,
+      title={DeepHateExplainer: Explainable Hate Speech Detection in Under-resourced Bengali Language},
+      author={Karim, Md and Dey, Sumon Kanti and Chakravarthi, Bharathi Raja and others},
+      journal={arXiv preprint arXiv:2012.14353},
+      year={2020}
+    }
 
 ### Contributing
 For any questions, feel free to open an issue or contact at rezaul.karim@rwth-aachen.de
