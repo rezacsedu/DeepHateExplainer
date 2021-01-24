@@ -1,16 +1,16 @@
 # DeepHateExplainer
 Source codes and supplementary for the paper "DeepHateExplainer: Explainable Hate Speech Detection in Under-resourced Bengali Language", under review in IEEE Access journal.The preprint version can be found and read on arXiv (https://arxiv.org/ftp/arxiv/papers/2012/2012.14353.pdf) as well. 
 
-#### Methods
+## Methods
 In our approach, Bengali texts are first comprehensively preprocessed, before classifying them into political, personal, geopolitical, and religious hates, by employing the neural ensemble method of different transformer-based neural architectures (i.e., monolingual Bangla BERT-base, multilingual BERT-cased/uncased, and XLM-RoBERTa). Subsequently, important (most and least) terms are identified with sensitivity analysis and layer-wise relevance propagation (LRP), before providing human-interpretable explanations. Finally, to measure the quality of the explanation (i.e., faithfulness), we compute the comprehensiveness and sufficiency. 
 
-#### Results
+## Results
 Evaluations against machine learning~(linear and tree-based models) and deep neural networks (i.e., CNN, Bi-LSTM, and Conv-LSTM with word embeddings) baselines yield F1 scores of 84%, 90%, 88%, and 88%, for political, personal, geopolitical, and religious hates, respectively, outperforming both ML and DNN baselines. 
 
-#### Data collections
+## Data collections
 We extend the Bengali Hate Speech Dataset ((https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset)) with additional 3,000 labelled samples. The Bengali Hate Speech Dataset categorized into political, personal, geopolitical, religious, and gender abusive hates. However, our empirical study and linguist analysis observe that distinguishing personal from gender abusive hate is often not straightforward, as they often semantically overlap. To justify this, our study observes that distinguishing personal hates from gender abusive hates was very challenging. Often statements that express hatred statement towards a person commonly used Benglai words that are directed mostly towards women. Therefore, ww follow the bootstrap approach for the data collection, where specific types of texts containing common slurs and terms, either directed towards a specific person or entity or generalized towards a group, are only considered. Texts were collected from Facebook, YouTube comments, and newspapers. We categorize the samples into political, personal, geopolitical, and religious hate. 
 
-#### Data availability
+## Data availability
 We made publicly available this dataset (https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset), but only for research purposes. So, if you use the code of this repository in your research, please consider citing the folowing papers:
 
     @inproceedings{karim2020BengaliNLP,
@@ -20,7 +20,7 @@ We made publicly available this dataset (https://github.com/rezacsedu/Bengali-Ha
         year={2020}
     }
 
-#### Availability of pretrained models
+## Availability of pretrained models
 We plan to make public all the pretrained models and some computational resources available, but it will take time. 
 
 ### Instruction to run the codes and sample results:
@@ -162,7 +162,7 @@ classification_report::
    macro avg       0.89      0.89      0.89      2807
 weighted avg       0.90      0.90      0.90      2807
 ```
-### Citation request
+## Citation request
 If you use the code of this repository in your research, please consider citing the folowing papers:
 
     @inproceedings{karim2020BengaliNLP,
@@ -179,6 +179,6 @@ If you use the code of this repository in your research, please consider citing 
       year={2020}
     }
 
-### Contributing
+## Contributing
 For any questions, feel free to open an issue or contact at rezaul.karim@rwth-aachen.de
 
