@@ -130,12 +130,15 @@ The following example is based on LRP, SA, GI. Please refer to corresponding [no
 ### Citation request ###
 If you use the code of this repository in your research, please consider citing the folowing papers:
 
-    @inproceedings{DeepHateLingo,
-        title={DeepHateLingo: Explainable Hate Speech Detection in Under-resourced Bengali Language},
-        author={Anonymous for review},
-        conference={submitted to 8th IEEE International Conference on Data Science and Advanced Analytics (IEEE DSAA,2021)},
+Md. Rezaul Karim, Sumon Kanti Dey, Tanhim Islam, Sagor Sarker, Mehadi Hasan Menon, Kabir Hossain, Md. Azam Hossain, Stefan Decker
+
+
+    @inproceedings{DeepHateExplainer,
+        title={DeepHateExplainer: Explainable Hate Speech Detection in Under-resourced Bengali Language},
+        author={Md. Rezaul Karim, Sumon Kanti Dey, Tanhim Islam, Sagor Sarker, Mehadi Hasan Menon, Kabir Hossain, Md. Azam Hossain, Stefan Decker},
+        conference={Proceeding of IEEE International Conference on Data Science and Advanced Analytics)},
         year={2021}
     }
 
 ### Contributing ###
-In future, we'll provide an email address, in case readers have any questions.
+For any questions, feel free to open an issue or contact at rezaul.karim@rwth-aachen.de
