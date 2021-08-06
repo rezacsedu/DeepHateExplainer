@@ -1,4 +1,4 @@
-### DeepHateLingo: Explainable Hate Speech Detection in Under-resourced Bengali Language
+### DeepHateExplainer: Explainable Hate Speech Detection in Under-resourced Bengali Language
 <p align="justify">Code and supplementary materials for our paper "DeepHateExplainer: Explainable Hate Speech Detection in Under-resourced Bengali Language" (Proceeding of IEEE International Conference on Data Science and Advanced Analytics~(DSAA'2021), October 6-9, 2021, Porto, Portugal). This repo will be updated with more reproducable resources, e.g., models, notebooks, etc.</p>
 
 ### Methods ###
